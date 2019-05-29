@@ -1,0 +1,7 @@
+$('img').click(function(){
+    console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+    var temp1 = $(this).attr('data-alt-src');
+    var temp2 = $(this).attr('src');
+    $(this).attr("src", temp1);
+    $(this).attr("data-alt-src", temp2);
+});

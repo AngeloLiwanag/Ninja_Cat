@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.swap{
+    margin: 10px;
+    border:2px solid #0e3a44;
+    margin:20px 340px;
+}
+    .swap h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 10px;
+    }
+    .swap .swap_img{
+        display:inline-block;
+        margin:10px;
+    }
+        .swap_img img{
+            display:block;
+            margin: 10px 0px;
+        }
+    .swap .info{
+        display: inline-block;
+        width: 200px;
+        vertical-align: 215px;;
+        border: 2px solid #0e3a44;
+        margin: 0px 30px;
+    }
